@@ -59,6 +59,11 @@
     }
   },
   {
+    "type": "hash_value",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "input_definition",
     "named": true,
     "fields": {},
@@ -200,6 +205,11 @@
     }
   },
   {
+    "type": "string_literal",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "#",
     "named": false
   },
@@ -228,10 +238,6 @@
     "named": true
   },
   {
-    "type": "hash_value",
-    "named": true
-  },
-  {
     "type": "identifier",
     "named": true
   },
@@ -246,10 +252,6 @@
   {
     "type": "output",
     "named": false
-  },
-  {
-    "type": "string_literal",
-    "named": true
   },
   {
     "type": "true",
