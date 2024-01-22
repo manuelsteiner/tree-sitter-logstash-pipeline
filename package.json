@@ -1,0 +1,24 @@
+{
+  "name": "tree-sitter-logstash-pipeline",
+  "version": "1.0.0",
+  "description": "A Tree-sitter grammar for logstash pipelines.",
+  "main": "bindings/node",
+  "keywords": [
+    "parser",
+    "lexer",
+    "logstash",
+    "pipeline"
+  ],
+  "scripts": {
+    "build": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "author": "Manuel Steiner",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.18.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.8"
+  }
+}

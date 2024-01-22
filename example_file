@@ -1,0 +1,35 @@
+# a top level comment
+input { # a comment after a section definition
+    syslog {
+        # a comment inside of a plugin definition
+    }
+}
+
+filter {
+    match {
+        case_sensitive => false
+        integer => 16172
+        another_integer => -1726
+        float => 18256.1234
+        another_float => -172.162
+        bytes => "12345"
+        bytes => "12345"
+        more_bytes => "1234mb"
+        even_more_bytes => "12341GiB"
+        even_more_more_bytes => "1234 Gb"
+        string_literal => "this is a string"
+        another_string_literal => 'this is also a string'
+        escaped_string => "this is an escapted \r \n \t \\ \" \' string"
+        empty_string => ""
+        hash => {
+            "key1" => "value1"
+            "key2" => "value2"
+        }
+        another_hash => { 'key1' => 'value1' 'key2' => 'value2' }
+    }
+}
+
+output {
+    elasticsearch {
+    }
+}
